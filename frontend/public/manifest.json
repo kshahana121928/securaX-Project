@@ -1,0 +1,16 @@
+{
+  "short_name": "SecuraX",
+  "name": "SecuraX – Smart Personal Safety Platform",
+  "icons": [
+    {
+      "src": "/shield.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "/dashboard",
+  "background_color": "#0B1F3A",
+  "theme_color": "#0B1F3A",
+  "display": "standalone",
+  "orientation": "portrait"
+}

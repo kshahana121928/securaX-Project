@@ -1,0 +1,13 @@
+{
+  "name": "securax",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SecuraX – Smart Personal Safety & Emergency Response Platform",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "seed": "npm --prefix backend run seed",
+    "build": "npm --prefix backend run build && npm --prefix frontend run build"
+  }
+}

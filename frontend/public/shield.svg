@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#0B1F3A" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+  </defs>
+  <!-- Outer Shield -->
+  <path d="M50 5 L85 20 V50 C85 72 50 95 50 95 C50 95 15 72 15 50 V20 Z" fill="url(#shieldGrad)" stroke="#06B6D4" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Inner Shield Core -->
+  <path d="M50 16 L76 28 V49 C76 66 50 84 50 84 C50 84 24 66 24 49 V28 Z" fill="#071629" opacity="0.85" />
+  <!-- Stylized 'X' Pulse -->
+  <path d="M38 36 L62 64 M62 36 L38 64" stroke="#DC2626" stroke-width="7" stroke-linecap="round" />
+  <circle cx="50" cy="50" r="7" fill="#06B6D4" />
+</svg>
